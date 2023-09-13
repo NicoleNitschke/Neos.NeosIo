@@ -109,6 +109,13 @@
 
     .service-providers__badge {
       max-width: 80px;
+
+      &.service-providers__badge--platinum {
+        max-width: 95px;
+      }
+      &.service-providers__badge--employer {
+        max-width: 105px;
+      }
     }
 
     .service-providers__grid-logo {
